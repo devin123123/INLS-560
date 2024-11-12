@@ -3,7 +3,7 @@ import pandas as pd
 
 roster = ['Tyson', 'Davis', 'Cadeau']
 
-data = pd.DataFrame(roster)
+data = pd.DataFrame(roster, columns=['Last Name'])
 print(data)
 
 
