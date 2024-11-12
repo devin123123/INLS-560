@@ -1,7 +1,7 @@
 # https://goheels.com/sports/mens-basketball/roster
 import pandas as pd
-roster = ['Tyson', 'Davis', 'Cadeau']
-player = {"Last Name": roster,
+
+player = {"Last Name": ["Tyson", "Davis", "Cadeau"],
           "First Name": ["Cade", "RJ", "Elliot"], 
           "height": [79, 72, 73], 
           "weight": [200,180,180]}
